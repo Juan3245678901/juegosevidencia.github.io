@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link href="http://fonts.cdnfonts.com/css/sf-pixelate" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" >
+    <script type="text/javascript" src="palabras.js" defer></script>
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+    <h1>Ahorcado</h1>
+    <div>
+        <canvas id="canvas"></canvas>
+        <div id="usedLetters"></div>
+    </div>
+    <div id="usedLetters"></div>
+    <div id="wordContainer"></div>
+    <button id="startButton" >EMPEZAR</button>
+    <a href="Ahorcado.html" id="backtomain" >VOLVER AL MENU</a>
+    <button id="pista" onclick="showPista()" >PISTA</button>
+    <a href="Ahorcado.html" id="back" >VOLVER AL MENU</a>
+    <input disabled id="definition" value="Definicion" type="text">
+    <button id="restartgame" onclick="restart()" >REINICIAR JUEGO</button>
+    <button id="description" onclick="descrip()" >DESCRIPCION DEL JUEGO</button>
+    <button id="rule" onclick="regla()" >REGLAS</button>
+    <button id="history" onclick="histori()" >HISTORIA DEL JUEGO</button> 
+    <div id="historia">
+    <h1>Los orígenes de El Ahorcado son oscuros, pero al parecer surgió en la época victoriana," dice Tony Augarde, autor de "La Guía de Oxford de Juegos de palabras" (Oxford University Press). El juego es mencionado en 1894 en "Juegos tradicionales" de Alice Bertha Gomme bajo el nombre "Aves, Bestias y Peces". Las reglas eran simples: un jugador anota la primera y última letra de una palabra de un animal, y el otro jugador adivina las letras en el medio. En otras fuentes[¿dónde?] el juego se llama "Horca", "El Juego de Hangin'", o "Suspensión". El Ahorcado ha aparecido en el sistema de videojuegos Speak & Spell de 1978 bajo el nombre de "Palabra Misterio" y en la actualidad (2014), a veces, se juega en los foros de Internet.</h1>    
+    </div>
+    <div id="descripcion">
+    <h1>El ahorcado (también llamado colgado) es un juego de adivinanzas de lápiz y papel para dos o más jugadores. Un jugador piensa en una palabra, frase u oración y el otro trata de adivinarla según lo que sugiere por letras o números.</h1>
+    </div>
+    <div id="reglas">
+    <h1>1- Se debe clarificar si se jugará con palabras o frases.</h1>
+    <h1>2- Es necesario aclarar si se colocarán letras de apoyo (en ocasiones se coloca una al inicio y final de cada juego).</h1>
+    <h1>3- Determinar quién empieza ocultando la palabra.</h1>
+    <h1>4- Designa un espacio donde se irá dibujando al ahorcado.</h1>    
+    <h1>5- Se iran anotadando las letras que digan en la pantalla.</h1>
+    <h1>6- El jugador que intenta adivinar comenzará a decir sus letras.</h1>
+    <h1>7- En caso de acertar una letra, se colocará en el espacio correspondiente.</h1>
+    <h1>8- En el caso de no acertar, comenzarás a dibujar el ahorcado, empezando por la cabeza, el tronco, las piernas y así sucesivamente.</h1>
+    <h1>9- Si el jugador no adivina la palabra será ahorcado y finalizará automáticamente el juego.</h1>
+    <h1>10- El participante que logre descifrar la palabra oculta, "GANA"</h1>
+    </div>
+    <input id="pi" disabled  type="text">
+    <img id="winner" src="https://media.tenor.com/C_d-EdxCk3YAAAAC/you-win-ganaste.gif" alt="">
+    <img id="loser" src="https://i.gifer.com/1iF0.gif" alt="">
+    <img id="trampa" src="https://media.tenor.com/LU5dID6-aqYAAAAC/the-simpsons-homer.gif" alt="">
+    <img id="mario" src="https://i.gifer.com/1UEH.gif" alt="">
+    <img id="ligamx" src="https://www.soyfutbol.com/__export/1653885457208/sites/debate/img/2022/05/29/calendario_apertura_2022.jpg_1902800913.jpg" alt="">
+    <a href="menu.html" id="menup" class="btn btn-primary">Regresar</a>
+</body>
+</html>

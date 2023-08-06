@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piedra, papel o tijera 3.0</title>
+  <link rel="stylesheet" href="CCS2.css">
+</head>
+<body>
+  <header>Piedra, papel o tijera 3.0</header>
+  <div class="game-container">
+    <h1>¡Juega ahora!</h1>
+    <div class="options">
+      <button class="choice-btn" onclick="playRound('piedra')">👊</button>
+      <button class="choice-btn" onclick="playRound('papel')">🖐️</button>
+      <button class="choice-btn" onclick="playRound('tijera')">✌️</button>
+    </div>
+    <div class="results">
+      <p>Jugador 1: <span id="player1-score">0</span></p>
+      <p>Jugador 2: <span id="player2-score">0</span></p>
+      <p>Rondas jugadas: <span id="rounds-played">0</span></p>
+      <p class="result-message" id="result-message"></p>
+      <button class="reset-btn" onclick="resetGame()">Reiniciar Juego</button>
+      <button class="regresar-btn" onclick="window.location.href = 'menu.html'">Regresar</button>
+    </div>
+    <div class="rules">
+      <h2>Reglas del juego:</h2>
+      <p>1. Piedra gana a Tijera.</p>
+      <p>2. Tijera gana a Papel.</p>
+      <p>3. Papel gana a Piedra.</p>
+      <p>4. Si ambos jugadores eligen lo mismo, es un empate.</p>
+    </div>
+  </div>
+  <script src="PPT.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
