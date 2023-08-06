@@ -1,0 +1,101 @@
+
+div {
+    display: inline-block;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+h1{
+  color: teal;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  
+}
+h2{
+    color:cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.R1{
+    color:violet;
+    font-family:Georgia, 'Times New Roman', Times, serif, 'Lucida Sans';
+
+}
+
+img.card-img-top {
+    object-fit: cover;
+    cursor: pointer;
+    max-height: 150px !important;
+    max-width: 200px !important;
+}
+
+img.card-img-top.girar {
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+body {
+  /*Para la barra inferior fija*/
+ 
+  padding: 0;
+  margin: 0;
+  
+  background: linear-gradient(rgb(0, 128, 75), rgba(196, 22, 22, 0.616));
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
+  font-family: calibri;
+
+}
+.jugador-1 {
+    cursor: pointer;
+    background: linear-gradient(orange, red);
+    padding: 13px;
+    border-radius: 35px;
+    border: white 5px solid;
+    font-size: 100%;
+    align-items: center;
+    margin-left: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.jugador-2 {
+    cursor: pointer;
+    background: linear-gradient(orange, red) ;
+    padding: 13px;
+    border-radius: 35px;
+    border: white 5px solid;
+    font-size: 100%;
+    margin-left: 300px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  
+}
+
+.marcar-Turno{
+    cursor: pointer;
+    background: linear-gradient(orange, red);
+    padding: 13px;
+    border-radius: 35px;
+    border: white 5px solid;
+    font-size: 100%;
+    margin-left:300px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  
+
+}
+.ganador1 {
+     color: red;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
